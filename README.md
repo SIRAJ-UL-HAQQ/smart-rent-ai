@@ -128,11 +128,10 @@ and click **Estimate Rent** to get a predicted monthly rent.
 ## How It Works
 
 ```mermaid
-flowchart LR
-    A[Raw Rental Listing] --> B[Structured Features<br/>beds, baths, sqft, neighborhood, lat/lon]
+    A[Raw Rental Listing] --> B[Structured Features]
     A --> C[Description Text]
     B --> D[ColumnTransformer]
-    C --> E[TfidfVectorizer<br/>ngram_range=(1, 2), max_features=100]
+    C --> E[TF-IDF Vectorizer]
     D --> F[Feature Matrix]
     E --> F
     F --> G[Ridge Regression Model]
