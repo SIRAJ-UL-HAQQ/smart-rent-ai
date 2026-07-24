@@ -128,6 +128,7 @@ and click **Estimate Rent** to get a predicted monthly rent.
 ## How It Works
 
 ```mermaid
+flowchart LR
     A[Raw Rental Listing] --> B[Structured Features]
     A --> C[Description Text]
     B --> D[ColumnTransformer]
@@ -137,6 +138,7 @@ and click **Estimate Rent** to get a predicted monthly rent.
     F --> G[Ridge Regression Model]
     G --> H[Predicted Monthly Rent]
 ```
+
 
 ## Streamlit UI
 
