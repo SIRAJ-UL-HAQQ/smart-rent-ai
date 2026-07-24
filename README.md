@@ -115,6 +115,10 @@ rental_ridge_model.joblib
 streamlit run app.py
 ```
 
+Or open the live deployment here:
+[https://siraj-ul-haqq-smart-rent-ai-app-gtjsst.streamlit.app/](https://siraj-ul-haqq-smart-rent-ai-app-gtjsst.streamlit.app/)
+
+
 Then input:
 - beds
 - baths
