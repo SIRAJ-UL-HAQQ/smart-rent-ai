@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Smart-Rent AI Streamlit UI</title>
+  <desc id="desc">A stylized screenshot of the Streamlit rental price estimator interface.</desc>
+  <rect width="1200" height="750" fill="#f8fafc"/>
+  <rect x="0" y="0" width="300" height="750" fill="#eef2ff"/>
+  <rect x="20" y="30" width="260" height="40" rx="10" fill="#e2e8f0"/>
+  <text x="40" y="57" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f2937">Sidebar Inputs</text>
+
+  <rect x="35" y="95" width="230" height="46" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="50" y="125" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#334155">Beds</text>
+
+  <rect x="35" y="150" width="230" height="46" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="50" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#334155">Baths</text>
+
+  <rect x="35" y="205" width="230" height="46" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="50" y="235" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#334155">Sqft</text>
+
+  <rect x="35" y="260" width="230" height="46" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="50" y="290" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#334155">Neighborhood</text>
+
+  <rect x="35" y="315" width="230" height="120" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="50" y="345" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#334155">Description</text>
+
+  <rect x="35" y="450" width="230" height="36" rx="8" fill="#fafafa" stroke="#cbd5e1"/>
+  <text x="50" y="475" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">Amenity checkboxes</text>
+
+  <rect x="330" y="40" width="820" height="640" rx="25" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="370" y="106" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="bold" fill="#0f172a">Rental Price Estimator</text>
+  <text x="370" y="148" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#475569">Estimate the monthly rent for a rental listing using the saved Ridge pipeline.</text>
+
+  <rect x="370" y="190" width="300" height="60" rx="12" fill="#2563eb"/>
+  <text x="462" y="229" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Estimate Rent</text>
+
+  <rect x="690" y="190" width="350" height="140" rx="18" fill="#ecfeff" stroke="#67e8f9"/>
+  <text x="722" y="242" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#0f172a">Estimated Monthly Rent</text>
+  <text x="722" y="292" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="bold" fill="#0f172a">$3,266</text>
+
+  <rect x="370" y="370" width="670" height="250" rx="18" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="390" y="410" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#111827">Workflow</text>
+  <text x="390" y="450" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">1. Feed structured inputs + description</text>
+  <text x="390" y="485" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">2. Preprocess via ColumnTransformer</text>
+  <text x="390" y="520" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">3. Load saved Ridge model pipeline</text>
+  <text x="390" y="555" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">4. Return predicted monthly rent</text>
+</svg>

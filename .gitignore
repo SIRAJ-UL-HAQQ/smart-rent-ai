@@ -1,0 +1,15 @@
+# Byte-compiled / Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables / local settings
+.env
+.vscode/
+
+# Joblib / pickle model artifacts (optional, keep under 100MB if pushing)
+# rental_ridge_model.joblib
